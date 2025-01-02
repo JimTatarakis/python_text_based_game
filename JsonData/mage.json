@@ -1,0 +1,31 @@
+{
+    "name": "mage",
+    "description": "the mage relies on their skills and knowledge to cast deadly spells at their enemies.\nbe sure to identify weaknesses and take advantage of typing when playing this character.",
+    "base_stats": {
+        "strength": 5,
+        "wisdom": 13,
+        "defense": 5,
+        "current_mana": 0,
+        "max_mana": 0,
+        "health_regen": 0,
+        "mana_regen": 0,
+        "current_health": 80,
+        "max_health": 80,
+        "evasion": 0,
+        "speed": 150
+    },
+    "equipped_items": {
+        "weapon": "dragon's codex",
+        "damage_bonus": 226,
+        "armor": "",
+        "defense_bonus": 0
+    },
+    "lvl": 1,
+    "exp": 0,
+    "skill_points": 5,
+    "stat_points": 0,
+    "skills": ["identify", "nix"],
+    "gold": 50,
+    "armors": [],
+    "weapons": ["dragon's codex"]
+}

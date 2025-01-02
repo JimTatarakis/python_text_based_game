@@ -1,0 +1,22 @@
+[
+  {
+    "name": "gold",
+    "description": "a valuable currency used to purchase items and upgrades.",
+    "drop_rate": 0.95
+  },
+  {
+    "name": "skill card",
+    "description": "a card that adds a skill point.",
+    "drop_rate": 0.125
+  },
+  {
+    "name": "weapon",
+    "description": "item will be revealed by taking it to a merchant.",
+    "drop_rate": 0.175
+  },
+  {
+    "name": "armor",
+    "description": "item will be revealed by taking it to a merchant.",
+    "drop_rate": 0.175
+  }
+]

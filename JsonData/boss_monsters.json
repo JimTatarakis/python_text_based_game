@@ -1,0 +1,59 @@
+[
+  {
+    "name": "withering grove",
+    "description": "an ancient, corrupted treant whose touch withers life.",
+    "base_stats": {
+      "max_health": 200,
+      "damage": 30,
+      "speed": 75,
+      "health_regen": 3.0,
+      "evasion": 1.5
+    },
+    "abilities": [
+      "poisonous touch",
+      "withering aura",
+      "entangling roots"
+    ],
+    "weakness": "fire",
+    "resistance": "water",
+    "drops": ["gold", "skill card"]
+  },
+  {
+    "name": "queen of the fey",
+    "description": "a seductive and powerful creature who can manipulate emotions and reality.",
+    "base_stats": {
+      "max_health": 150,
+      "damage": 25,
+      "speed": 120,
+      "health_regen": 2.25,
+      "evasion": 2.4
+    },
+    "abilities": [
+      "illusionary domination",
+      "charm",
+      "reality warp"
+    ],
+    "weakness": "void",
+    "resistance": "light",
+    "drops": ["gold", "skill card"]
+  },
+  {
+    "name": "dire wolf alpha",
+    "description": "a massive and ferocious wolf that leads a pack of savage hunters.",
+    "base_stats": {
+      "max_health": 180,
+      "damage": 35,
+      "speed": 145,
+      "health_regen": 2.7,
+      "evasion": 2.9
+    },
+    "abilities": [
+      "pack frenzy",
+      "savage bite",
+      "intimidate"
+    ],
+    "weakness": "thunder",
+    "resistance": "earth",
+    "drops": ["gold", "skill card"]
+  }
+]

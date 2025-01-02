@@ -1,0 +1,114 @@
+[
+  {
+    "name": "whisperwind",
+    "description": "a small, easily concealable blade for quick strikes.",
+    "type": "dagger",
+    "attack": 5,
+    "price": 10
+  },
+  {
+      "name": "serpent's kiss",
+      "description": "a finely crafted dagger with a slightly longer reach.",
+      "type": "dagger",
+      "attack": 7,
+      "price": 20
+  },
+  {
+      "name": "nightshade",
+      "description": "a dagger imbued with a subtle poison.",
+      "type": "dagger",
+      "attack": 6,
+      "price": 15
+  },
+  {
+      "name": "shadow's fang",
+      "description": "a dagger crafted from obsidian, incredibly sharp.",
+      "type": "dagger",
+      "attack": 8,
+      "price": 25
+  },
+  {
+      "name": "sparkle",
+      "description": "a simple wand for channeling basic spells.",
+      "type": "wand",
+      "attack": 3,
+      "price": 15
+  },
+  {
+      "name": "willow's whisper",
+      "description": "a beautifully carved wand with increased spell power.",
+      "type": "wand",
+      "attack": 5,
+      "price": 30
+  },
+  {
+      "name": "dragon's breath",
+      "description": "a wand made from dragon bone, imbued with arcane power.",
+      "type": "wand",
+      "attack": 7,
+      "price": 50
+  },
+  {
+      "name": "starfire",
+      "description": "a rare wand crafted from a fallen star, capable of potent magic.",
+      "type": "wand",
+      "attack": 9,
+      "price": 75
+  },
+  {
+      "name": "traveler's staff",
+      "description": "a sturdy wooden staff for basic spellcasting.",
+      "type": "staff",
+      "attack": 4,
+      "price": 20
+  },
+  {
+      "name": "oakheart",
+      "description": "a staff carved from an ancient oak tree, imbued with nature's power.",
+      "type": "staff",
+      "attack": 6,
+      "price": 40
+  },
+  {
+      "name": "shadow's embrace",
+      "description": "a staff of obsidian, channeling dark energies.",
+      "type": "staff",
+      "attack": 8,
+      "price": 60
+  },
+  {
+      "name": "archmage's spire",
+      "description": "a legendary staff said to have belonged to an archmage.",
+      "type": "staff",
+      "attack": 10,
+      "price": 100
+  },
+  {
+      "name": "beginner's tome",
+      "description": "a simple book of spells for novice mages.",
+      "type": "grimoire",
+      "attack": 2,
+      "price": 10
+  },
+  {
+      "name": "whispers of power",
+      "description": "a grimoire containing ancient and powerful spells.",
+      "type": "grimoire",
+      "attack": 4,
+      "price": 30
+  },
+  {
+      "name": "dragon's codex",
+      "description": "a grimoire bound in dragon hide, filled with forbidden magic.",
+      "type": "grimoire",
+      "attack": 226,
+      "price": 50
+  },
+  {
+      "name": "book of eternity",
+      "description": "a legendary grimoire said to contain the secrets of the universe.",
+      "type": "grimoire",
+      "attack": 108,
+      "price": 100
+  }
+]

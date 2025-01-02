@@ -1,0 +1,118 @@
+[
+  {
+    "name": "forest sprite",
+    "description": "a mischievous creature that loves to play tricks on travelers.",
+    "base_stats": {
+      "max_health": 20,
+      "damage": 5,
+      "speed": 67,
+      "evasion": 10.05,
+      "health_regen": 0
+    },
+    "abilities": [
+      "illusionary strike",
+      "nature's blessing"
+    ],
+    "weakness": "fire",
+    "resistance": "earth",
+    "drops": [
+      "gold",
+      "skill card",
+      "weapon",
+      "armor"
+    ]
+  },
+  {
+    "name": "woodland wolf",
+    "description": "a fierce predator that roams the forest.",
+    "base_stats": {
+      "max_health": 40,
+      "damage": 10,
+      "speed": 112,
+      "evasion": 16.8,
+      "health_regen": 0
+    },
+    "abilities": [
+      "pack tactics",
+      "pounce"
+    ],
+    "weakness": "thunder",
+    "resistance": "wind",
+    "drops": [
+      "gold",
+      "skill card",
+      "weapon",
+      "armor"
+    ]
+  },
+  {
+    "name": "treant guardian",
+    "description": "a wise and ancient tree spirit that protects the forest.",
+    "base_stats": {
+      "max_health": 80,
+      "damage": 15,
+      "speed": 42,
+      "evasion": 6.3,
+      "health_regen": 0
+    },
+    "abilities": [
+      "root bind",
+      "nature's wrath"
+    ],
+    "weakness": "fire",
+    "resistance": "water",
+    "drops": [
+      "gold",
+      "skill card",
+      "weapon",
+      "armor"
+    ]
+  },
+  {
+    "name": "forest nymph",
+    "description": "a beautiful and elusive creature that guards the secrets of the forest.",
+    "base_stats": {
+      "max_health": 30,
+      "damage": 8,
+      "speed": 135,
+      "evasion": 20.25,
+      "health_regen": 0
+    },
+    "abilities": [
+      "swift strike",
+      "nature's grace"
+    ],
+    "weakness": "void",
+    "resistance": "light",
+    "drops": [
+      "gold",
+      "skill card",
+      "weapon",
+      "armor"
+    ]
+  },
+  {
+    "name": "goblin raider",
+    "description": "a cunning and greedy creature that raids the forest for treasure.",
+    "base_stats": {
+      "max_health": 35,
+      "damage": 9,
+      "speed": 87,
+      "evasion": 13.05,
+      "health_regen": 0
+    },
+    "abilities": [
+      "ambush",
+      "dagger throw",
+      "snicker"
+    ],
+    "weakness": "thunder",
+    "resistance": "earth",
+    "drops": [
+      "gold",
+      "skill card",
+      "weapon",
+      "armor"
+    ]
+  }
+]

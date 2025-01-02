@@ -1,0 +1,111 @@
+[
+  {
+    "name": "identify",
+    "description": "reveals the true nature of an item or creature.",
+    "element": "neutral",
+    "mana_cost": 5,
+    "area_damage": false,
+    "damage": 0,
+    "skill_point_cost": 1
+  },
+  {
+    "name": "fire",
+    "description": "hurls a bolt of fire at an enemy, dealing fire damage.",
+    "element": "fire",
+    "mana_cost": 10,
+    "area_damage": false,
+    "damage": 15,
+    "skill_point_cost": 2
+  },
+  {
+    "name": "water",
+    "description": "creates a torrent of water that damages enemies and can extinguish flames.",
+    "element": "water",
+    "mana_cost": 12,
+    "area_damage": true,
+    "damage": 10,
+    "skill_point_cost": 3
+  },
+  {
+    "name": "thunder",
+    "description": "calls down a bolt of lightning, dealing thunder damage to a single target.",
+    "element": "thunder",
+    "mana_cost": 15,
+    "area_damage": false,
+    "damage": 20,
+    "skill_point_cost": 4
+  },
+  {
+    "name": "meteor",
+    "description": "summons a shower of meteors from the sky, dealing fire damage to an area.",
+    "element": "fire",
+    "mana_cost": 20,
+    "area_damage": true,
+    "damage": 25,
+    "skill_point_cost": 5
+  },
+  {
+    "name": "hurricane",
+    "description": "creates a powerful whirlwind that damages and disorients enemies.",
+    "element": "wind",
+    "mana_cost": 18,
+    "area_damage": true,
+    "damage": 18,
+    "skill_point_cost": 6
+  },
+  {
+    "name": "holy",
+    "description": "heals the caster and nearby allies.",
+    "element": "light",
+    "mana_cost": 15,
+    "area_damage": true,
+    "damage": 0,
+    "skill_point_cost": 7
+  },
+  {
+    "name": "nix",
+    "description": "creates a temporary shield that absorbs damage.",
+    "element": "neutral",
+    "mana_cost": 5,
+    "area_damage": false,
+    "damage": 7,
+    "skill_point_cost": 8
+  },
+  {
+    "name": "double_cast",
+    "description": "allows the caster to cast the next spell twice.",
+    "element": "neutral",
+    "mana_cost": 5,
+    "area_damage": false,
+    "damage": 0,
+    "skill_point_cost": 9
+  },
+  {
+      "name": "aether_shield",
+      "description": "creates a barrier around the caster that reflects damage back to the attacker.",
+      "element": "neutral",
+      "mana_cost": 12,
+      "damage_imune_counter": 1,
+      "area_damage": false,
+      "damage": 0,
+      "skill_point_cost": 10
+  },
+  {
+      "name": "regen",
+      "description": "gradually restores the caster's health over time.",
+      "element": "neutral",
+      "mana_cost": 5,
+      "area_damage": false,
+      "damage": 0,
+      "skill_point_cost": 3
+  },
+  {
+      "name": "heal",
+      "description": "heals a target ally for a moderate amount of health.",
+      "element": "light",
+      "mana_cost": 10,
+      "area_damage": false,
+      "damage": 0,
+      "skill_point_cost": 2
+  }
+]

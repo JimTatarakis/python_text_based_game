@@ -1,0 +1,86 @@
+[
+  {
+    "name": "traveler's wrap",
+    "description": "light armor providing minimal protection.",
+    "type": "padded",
+    "defense": 1,
+    "price": 5
+  },
+  {
+    "name": "journeyman's padding",
+    "description": "thickly padded armor offering slightly better protection.",
+    "type": "padded",
+    "defense": 2,
+    "price": 10
+  },
+  {
+    "name": "skirmisher's vest",
+    "description": "high-quality padded armor with reinforced stitching.",
+    "type": "padded",
+    "defense": 3,
+    "price": 15
+  },
+  {
+    "name": "ghostwalker's grace",
+    "description": "masterfully crafted padded armor with exceptional mobility.",
+    "type": "padded",
+    "defense": 4,
+    "price": 20
+  },
+  {
+      "name": "hide of the wolf",
+      "description": "simple leather armor offering basic protection.",
+      "type": "leather",
+      "defense": 3,
+      "price": 15
+  },
+  {
+      "name": "ranger's guard",
+      "description": "sturdy leather armor with reinforced plates.",
+      "type": "leather",
+      "defense": 5,
+      "price": 25
+  },
+  {
+      "name": "shadowstalker's cloak",
+      "description": "high-quality leather armor crafted with intricate designs.",
+      "type": "leather",
+      "defense": 7,
+      "price": 35
+  },
+  {
+      "name": "wyrmhide",
+      "description": "masterfully crafted leather armor with exceptional durability.",
+      "type": "leather",
+      "defense": 9,
+      "price": 45
+  },
+  {
+      "name": "whisperwind vest",
+      "description": "light and elegant elven armor, providing moderate protection.",
+      "type": "elven",
+      "defense": 4,
+      "price": 20
+  },
+  {
+      "name": "moonbeam armor",
+      "description": "elven armor crafted from enchanted wood, offering superior protection.",
+      "type": "elven",
+      "defense": 6,
+      "price": 35
+  },
+  {
+      "name": "starlight grace",
+      "description": "exquisite elven armor crafted from moonstone, providing exceptional defense.",
+      "type": "elven",
+      "defense": 8,
+      "price": 50
+  },
+  {
+      "name": "guardian's embrace",
+      "description": "legendary elven armor imbued with ancient magic.",
+      "type": "elven",
+      "defense": 10,
+      "price": 75
+  }
+]
