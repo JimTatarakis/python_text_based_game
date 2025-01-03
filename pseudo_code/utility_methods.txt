@@ -1,0 +1,49 @@
+Utility Functions
+Function read_json_file(path_to_data, filename)
+
+Combine path_to_data and filename to create the file path.
+Try opening the file as JSON:
+If successful, return the loaded data.
+On FileNotFoundError, print a warning and return an empty dictionary.
+On JSONDecodeError, print an error message and return an empty dictionary.
+Function slow_print(text)
+
+Loop through each character in text:
+Print the character with a delay of 0.01 seconds.
+Print a new line after the loop.
+Function get_user_choice(options)
+
+Display available options using slow_print.
+Prompt the user for input.
+Validate and return the corresponding choice.
+Gameplay Functions
+Function open_chest(armor_list=None, weapon_list=None)
+
+Initialize variables: gold_amount, armor_choice, weapon_choice, and a text summary.
+Assign random chances for finding gold, armor, and weapons.
+Return a dictionary summarizing the chest contents.
+Function enter_room()
+
+Generate a random room with chances for monsters, chests, traps, and exits.
+Construct descriptive text for the room.
+Return a dictionary summarizing the room details.
+Function show_room_options(room)
+
+Ensure room exists; otherwise, raise an exception.
+Create options based on room attributes (e.g., chest, exit).
+Use get_user_choice to determine the user's action.
+Return the corresponding action from a pre-defined list.
+Function show_menu_options()
+
+Define a list of menu options.
+Display the menu and return the user’s choice.
+Function show_char_stats(base_stats, stat_points)
+
+Format and print character stats using slow_print.
+Combat and Turn Logic
+Function setup_turn_order(monster_speed, mage_speed)
+If speeds are equal:
+Alternate turns randomly between the monster and mage.
+If speeds differ:
+Use counters to calculate turn frequency based on speed.
+Return a list of 10 turns, prioritizing the faster entity.

@@ -1,0 +1,21 @@
+import random: Import the random module for generating random choices.
+
+Class Definition
+
+Define class BossMonster with a constructor and methods.
+Constructor
+
+Input: monster_data.
+Store monster_data in an instance variable.
+Method: get_boss_monster_by_name
+
+Input: name.
+Loop through monster_data.
+If monster["name"] == name, return the monster.
+If no match, return None.
+Method: get_all_boss_monsters
+
+Return monster_data.
+Method: get_random_boss_monster
+
+Return a random choice from monster_data.

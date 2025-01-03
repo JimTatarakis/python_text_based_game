@@ -1,0 +1,25 @@
+Imports:
+
+The necessary functions and classes are imported for handling game logic, character stats, equipment, and monsters.
+
+Loading Data:
+
+JSON files are read into variables for armor, weapons, monsters, boss monsters, mage skills, and the mage character using read_json_file.
+These data are then passed into their respective manager classes (Armor, Weapon, Monster, BossMonster, SkillManager, Mage)
+for easier access and manipulation during gameplay.
+Introductory Scene:
+
+The game starts with a text-based introduction.
+slow_print is used to display the introduction with a small delay between each character for a dramatic effect.
+
+Main Loop: The game continuously runs until the player chooses to exit or dies. It starts by entering a room, handling possible monster encounters,
+and progressing through combat or other actions (chest opening, character management).
+
+Monster & Mage Combat: Combat alternates between the monster and the mage.
+The mage can attack, use skills, or manage resources like health and mana.
+
+Skill Management: Skills can be used to influence combat, such as using double-cast or damage immunity.
+
+Loot & Rewards: After defeating a monster, the player can receive experience points, gold, and potentially items (armor, weapons, or skill cards).
+
+Character Management: The mage can view their stats, inventory, equip items, and upgrade skills and stats.

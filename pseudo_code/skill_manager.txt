@@ -1,0 +1,16 @@
+Class Definition
+
+Define class SkillManager with a constructor and methods.
+Constructor
+
+Input: skill_data.
+Store skill_data in an instance variable.
+Method: get_skill_by_name
+
+Input: name.
+Loop through skill_data.
+If skill["name"] == name, return the skill.
+If no match, return None.
+Method: get_all_skills
+
+Return skill_data.

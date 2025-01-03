@@ -1,0 +1,24 @@
+Import Modules
+
+Import random for random value generation.
+
+Class Definition
+
+Define class Weapon with a constructor and methods.
+Constructor
+
+Input: weapon_data.
+Store weapon_data in an instance variable.
+Method: get_weapon_by_name
+
+Input: name.
+Loop through weapon_data.
+If weapon["name"] == name, return the weapon.
+If no match, return None.
+Method: get_all_weapons
+
+Return weapon_data.
+Method: get_random_weapon
+
+Select a random item from weapon_data.
+Return the name of the selected weapon.

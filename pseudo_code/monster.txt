@@ -1,0 +1,22 @@
+Import Modules
+
+Import random for random value generation.
+
+Class Definition
+
+Define class Monster with a constructor and methods.
+Constructor
+
+Input: monster_data.
+Store monster_data in an instance variable.
+Method: get_monster_by_name
+
+Input: name.
+Loop through monster_data.
+If monster["name"] == name, return the monster.
+If no match, return None.
+Method: get_all_monsters
+
+Return monster_data.
+Method: get_random_monster
+

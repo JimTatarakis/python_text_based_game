@@ -1,0 +1,22 @@
+import random: Import the random module for generating random choices.
+
+Class Definition
+
+Define class Armor with a constructor and methods.
+Constructor
+
+Input: armor_data.
+Store armor_data in an instance variable.
+Method: get_armor_by_name
+
+Input: name.
+Loop through armor_data.
+If armor["name"] == name, return the armor.
+If no match, return None.
+Method: get_all_armor
+
+Return armor_data.
+Method: get_random_armor
+
+Select a random item from armor_data.
+Return the name of the selected item.

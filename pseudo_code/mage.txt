@@ -1,0 +1,130 @@
+Import Modules
+
+Import math for mathematical operations.
+Import random for random value generation.
+
+Class Definition
+
+Define class Mage with a constructor and multiple methods.
+Constructor
+
+Input: mage_data.
+Store mage_data in an instance variable.
+Method: get_skills
+
+Return skills from mage_data.
+Method: add_skill
+
+Input: skill, cost.
+If skill already exists, raise exception.
+If cost is negative, raise exception.
+If cost exceeds available skill points, raise exception.
+Deduct cost from skill points and add skill to skills list.
+Method: remove_skill
+
+Input: skill, cost.
+If skill does not exist, raise exception.
+If cost is negative, raise exception.
+Add cost back to skill points and remove skill from skills list.
+Method: get_skill_points
+
+Return skill points as an integer.
+Method: update_skill_points
+
+Input: operation, amount.
+If "add", increment skill points by amount.
+If "subtract", decrement skill points by amount.
+Return updated skill points.
+Method: get_base_stats
+
+If max_mana is less than 1, calculate stats and set current_mana.
+Return base_stats.
+Method: update_base_stat
+
+Input: operation, base_stat, stat_points.
+If stat points exceed available, raise exception.
+Apply stat modifier for specific stats.
+Add or subtract stat points based on operation.
+Recalculate stats.
+Method: get_stat_points
+
+Return stat points as an integer.
+Method: update_stat_points
+
+Input: operation, points (default 0).
+If "add", increase stat points by 5–10 randomly.
+If "subtract", decrease stat points by points.
+Return updated stat points.
+Method: calculate_lvl
+
+Define base experience and growth factor.
+Calculate level from experience using logarithm.
+Cap level at 100 and update lvl.
+Return level.
+Method: get_lvl
+
+Return current level.
+Method: get_exp
+
+Return current experience.
+Method: add_exp
+
+Input: exp.
+Add experience and recalculate level.
+If leveled up, heal health and mana, and add stat points.
+Return level-up status, current level, and stat points.
+Method: calculate_stats
+
+Calculate max_mana, mana_regen, health_regen, and evasion based on related stats.
+Method: get_weapons
+
+Return weapons list.
+Method: update_weapons
+
+Input: operation, weapon.
+If "add", append weapon.
+If "subtract", remove weapon.
+Method: equip_weapon
+
+Input: weapon, damage_bonus.
+Update equipped weapon and damage bonus.
+Method: get_armors
+
+Return armors list.
+Method: update_armors
+
+Input: operation, armor.
+If "add", append armor.
+If "subtract", remove armor.
+Method: equip_armor
+
+Input: armor, armor_bonus.
+Update equipped armor and armor bonus.
+Method: get_equipped_items
+
+Return equipped items.
+Method: update_gold
+
+Input: operation, amount.
+Add or subtract gold based on operation.
+Return updated gold.
+Method: update_health
+
+Input: operation, amount.
+Add or subtract max_health based on operation.
+Return updated health.
+Method: update_current_health
+
+Input: operation, amount.
+Add, subtract, or set current_health.
+Return updated health.
+Method: update_current_mana
+
+Input: operation, amount.
+Add, subtract, or set current_mana.
+Return updated mana.
+Method: update_mana
+
+Input: operation, amount.
+Add or subtract max_mana.
+Return updated mana.

@@ -1,5 +1,3 @@
-import random
-
 class SkillManager:
     def __init__(self, skill_data):
         self.skill_data = skill_data
